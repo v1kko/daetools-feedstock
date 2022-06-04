@@ -10,7 +10,7 @@ source:
   sha256: 1d0fb23a9c845b0c2761756c0425835cab7c266753e91676f296844a156399a3
 
 build:
-  number: 2
+  number: 3
 # script: #Use the complex build.sh
 
 # superlu dependency is not (yet) available on windows. skip windows build for now
@@ -27,7 +27,7 @@ requirements:
     - python
     - pip
     - coolprop
-    - qt
+    - qt-main
     - make
     - cmake
     - boost
@@ -53,7 +53,7 @@ requirements:
   run:
     - python
     - coolprop
-    - qt
+    - qt-main
     - boost
     - boost-cpp
     - superlu
