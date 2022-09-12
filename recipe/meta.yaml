@@ -1,5 +1,5 @@
 {% set name = "daetools" %}
-{% set version = "1.9.2" %}
+{% set version = "1.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/v1kko/daetools/archive/v{{ version }}.tar.gz 
-  sha256: 1d0fb23a9c845b0c2761756c0425835cab7c266753e91676f296844a156399a3
+  sha256: 86022590cc541ad05af40f5df313bd6aaad1c7083edde34089d315cc48d18b48
 
 build:
-  number: 4
+  number: 5
 # script: #Use the complex build.sh
 
 # superlu dependency is not (yet) available on windows. skip windows build for now
