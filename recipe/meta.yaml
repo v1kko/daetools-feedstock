@@ -10,7 +10,7 @@ source:
   sha256: 86022590cc541ad05af40f5df313bd6aaad1c7083edde34089d315cc48d18b48
 
 build:
-  number: 5
+  number: 6
 # script: #Use the complex build.sh
 
 # superlu dependency is not (yet) available on windows. skip windows build for now
